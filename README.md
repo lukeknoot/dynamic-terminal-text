@@ -1,8 +1,9 @@
 When I was looking at [ink](https://github.com/vadimdemedes/ink) I was curious
-as to how terminal text can actually be made dynamic.
+as to how terminal text can actually be made dynamic. 
 
 I found that this can be achieved (at least one way) with the `\r` special carriage return character,
-allowing you to overwrite the existing line.
+allowing you to overwrite the existing line. Ink uses [ansi-escapes](https://www.npmjs.com/package/ansi-escapes)
+which provides this functionality and a whole lot more.
 
 I just created this little example for my own reference. Might convert to a gist if I don't expand on it.
 
